@@ -1,0 +1,33 @@
+img {
+    display: block;
+    width: 400px;
+    max-width: 100%;
+    height: auto;
+    margin: 15px 0;
+}
+
+.reasons-list {
+    background-color: #f0f8ff;
+    padding: 20px;
+    border-left: 4px solid #1e90ff;
+    list-style-type: square;
+}
+
+.reasons-list li {
+    margin: 10px 0;
+    color: #333;
+    font-weight: bold;
+}
+
+.champions-list {
+    background-color: #fff8dc;
+    padding: 20px;
+    border-left: 4px solid #ffd700;
+    list-style-type: circle;
+}
+
+.champions-list li {
+    margin: 10px 0;
+    color: #444;
+    font-style: italic;
+}
