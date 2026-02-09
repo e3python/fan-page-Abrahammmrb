@@ -1,0 +1,60 @@
+/* Base styling for all images: 400px wide, responsive, with vertical margins for spacing */
+img {
+    display: block;
+    width: 400px;
+    max-width: 100%;
+    height: auto;
+    margin: 15px 0;
+}
+
+/* Roster image with blue border (#1e90ff) and rounded corners with shadow */
+.roster-image {
+    border: 3px solid #1e90ff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Worlds Championship image with gold border (#ffd700), rounded corners, and gold-tinted shadow */
+.worlds-image {
+    border: 3px solid #ffd700;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(255, 215, 0, 0.3);
+}
+
+/* Dr. Mundo image with purple border (#8b00ff), smaller width (350px), and purple-tinted shadow */
+.mundo-image {
+    border: 3px solid #8b00ff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(139, 0, 255, 0.3);
+    width: 350px;
+}
+
+/* Reasons list with light blue background (#f0f8ff), blue left border (#1e90ff), and square bullets */
+.reasons-list {
+    background-color: #f0f8ff;
+    padding: 20px;
+    border-left: 4px solid #1e90ff;
+    list-style-type: square;
+}
+
+/* Reasons list items in bold with dark gray text (#333) */
+.reasons-list li {
+    margin: 10px 0;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Champions list with cream background (#fff8dc), gold left border (#ffd700), and circle bullets */
+.champions-list {
+    background-color: #fff8dc;
+    padding: 20px;
+    border-left: 4px solid #ffd700;
+    list-style-type: circle;
+}
+
+/* Champion list items in italic with gray text (#444) */
+.champions-list li {
+    margin: 10px 0;
+    color: #444;
+    font-style: italic;
+}
